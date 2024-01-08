@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void exe(View view)
     {
     count++;
-    String str="This is a click number:"+count;
+    String str=("This is a click number:"+count);
     bt.setText(str);
     if (count%7==0){
         bt.setText("BOOM!");
