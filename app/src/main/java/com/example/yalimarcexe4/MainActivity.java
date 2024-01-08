@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     count++;
     String str="This is a click number:"+count;
     bt.setText(str);
-    if (count%7==0)
+    if (count%7==0){
         bt.setText("BOOM!");
-        count=0;
+        count=0;}
 
     }
 }

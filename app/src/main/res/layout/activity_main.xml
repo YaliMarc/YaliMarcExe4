@@ -18,10 +18,10 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="125dp"
-        android:layout_height="65dp"
-        android:text="Click me"
+        android:layout_width="640dp"
+        android:layout_height="255dp"
         android:onClick="exe"
+        android:text="Click me"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
