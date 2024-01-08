@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private Button bt;
     int count=0;
+    String str2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bt.setText("Click me");
         bt=findViewById(R.id.button);
+        str2="BOOM!";
     }
 
 
@@ -25,8 +27,18 @@ public class MainActivity extends AppCompatActivity {
     String str=("This is a click number:"+count);
     bt.setText(str);
     if (count%7==0){
-        bt.setText("BOOM!");
+        bt.setText(str2);
         count=0;}
 
     }
 }
+
+
+
+
+
+
+
+
+
+
